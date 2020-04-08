@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.logo {
+    width: 10%;
+}
+
+body {
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.75rem;
+    line-height: 1.4rem;
+}
+
+h1 {
+    background-image: url("../image/sea.jpg");
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 60px;
+    padding-top: 200px;
+}
+
+.button1 {
+    background-color: #7aaeac;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.75rem;
+    text-decoration: none;
+    height: 50px;
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.button {
+    background-color: #7aaeac;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.75rem;
+    text-decoration: none;
+    height: 50px;
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.button1 a {
+    color: white;
+    text-decoration: none;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #7a9493;
+}
+
+.news1 p,
+.news2 p,
+.news3 p {
+    color: #7a9493;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.foot {
+    height: 150px;
+    background-color: white;
+}
+
+footer {
+    background-color: #8ca7a8;
+}
+
+.sentence1 {
+    color: white;
+}
+
+.copy {
+    bottom: 0;
+    color: white;
+}
+
+hr {
+    width: 70%;
+}
+
+.box3 ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.box3 li i {
+    font-size: 25px;
+}
+
+.img {
+    width: 80%;
+}
+
+/*portfolio page*/
+h5 {
+    background-image: url("../image/sea.jpg");
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 60px;
+    padding-top: 200px;
+}
+
+.bro1,
+.bro2,
+.bro3,
+.bro4,
+.bro5,
+.bro6 {
+    padding-top: 30px;
+}
+
+@media (min-width:35rem) {
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    body {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .button1,
+    .button {
+        display: inline;
+        width: 30%;
+        margin-left: 40px;
+        font-size: 1rem;
+    }
+
+    .img {
+        float: left;
+        width: 40%;
+    }
+
+    hr {
+        clear: both;
+        margin-top: 70px;
+    }
+
+    h2,
+    h3,
+    h4 {
+        font-size: 25px;
+    }
+
+    /*homepage*/
+    .bro2,
+    .bro4,
+    .bro6 {
+        float: right;
+        width: 50%;
+    }
+
+    .bro1,
+    .bro3,
+    .bro5 {
+        float: left;
+        width: 50%;
+        /*portfolio page*/
+    }
+
+    footer {
+        clear: both;
+    }
+}
+
+@media(min-width: 80rem) {
+    body {
+        line-height: 1.6rem;
+        font-size: 1.25rem;
+    }
+
+    /*homepage*/
+    .home,
+    .button {
+        font-size: 1.25rem;
+        display: inline;
+    }
+
+    body.home,
+    body .button {
+        display: inline-block;
+    }
+
+    .news1,
+    .news2,
+    .news3 {
+        display: flex;
+        flex-direction: row;
+        margin-left: 120px;
+        margin-right: 120px;
+        padding-bottom: 40px;
+    }
+
+    .news1 p,
+    .news2 p,
+    .news3 p {
+        padding-left: 60px;
+        text-align: left;
+    }
+
+    h2,
+    h3,
+    h4 {
+        text-align: left;
+        padding-left: 120px;
+        padding-bottom: 30px;
+        font-size: 30px;
+    }
+
+    footer {
+        clear: both;
+    }
+
+    .img {
+        width: 40%;
+        height: 100%;
+    }
+
+    /*portfolio page*/
+    .bro1,
+    .bro2,
+    .bro3 {
+        float: right;
+        width: 30.3%;
+        padding-left: 40px;
+        padding-bottom: 40px;
+
+    }
+
+    .bro4,
+    .bro5,
+    .bro6 {
+        float: right;
+        width: 30.3%;
+        padding-left: 40px;
+        padding-top: 60px;
+    }
+
+}
